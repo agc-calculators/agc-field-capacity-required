@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "tag": "agc-field-capacity-required",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityRequired",
+      "componentPath": "components/agc-field-capacity-required/agc-field-capacity-required.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        },
+        {
+          "name": "units",
+          "type": "Any",
+          "attr": "units"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-required-inputs",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityRequiredInputs",
+      "componentPath": "components/agc-field-capacity-required-inputs/agc-field-capacity-required-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-required-progress",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityRequiredProgress",
+      "componentPath": "components/agc-field-capacity-required-progress/agc-field-capacity-required-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-required-results",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityRequiredResults",
+      "componentPath": "components/agc-field-capacity-required-results/agc-field-capacity-required-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-field-capacity-required-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcFieldCapacityRequiredResultsPlaceholder",
+      "componentPath": "components/agc-field-capacity-required-results-placeholder/agc-field-capacity-required-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}
